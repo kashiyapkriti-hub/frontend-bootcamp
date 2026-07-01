@@ -12,7 +12,7 @@ This repository documents my journey of learning modern frontend development fro
 - React
 - API Integration
 - Git & GitHub
-- Freelancing Projects
+- Freelancing
 
 ## Repository Structure
 
