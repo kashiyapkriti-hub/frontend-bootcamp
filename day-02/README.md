@@ -18,6 +18,13 @@ Created a "TripTastic Website HomePage" using HTML.
 TripTastic Travel Agency Wbsite Home page.
 
 
+
 ## Status
 
 ✅ Completed
+
+
+## Tomorrow Goal
+
+CSS Fundamentals.
+
