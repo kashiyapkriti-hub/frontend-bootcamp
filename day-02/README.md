@@ -15,3 +15,5 @@
 Created a "TripTastic Website HomePage" using HTML.
 
 ## Status
+
+✅ Completed
