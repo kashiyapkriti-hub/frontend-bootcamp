@@ -1,6 +1,6 @@
 # Day 1
 
-## Today I Learned
+## Topics Learned
 
 - HTML Structure
 - Semantic HTML
@@ -10,6 +10,10 @@
 - Images
 - Links
 
-### Assignment
+## Challenge
 
-Created an `about-me.html` page using semantic HTML.
+Created an About Me webpage using semantic HTML.
+
+## Status
+
+✅ Completed
