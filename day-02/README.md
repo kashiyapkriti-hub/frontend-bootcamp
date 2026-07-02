@@ -15,7 +15,7 @@
 Created a "TripTastic Website HomePage" using HTML.
 
 ## Project 
-TripTastic Travel Agency Wbsite Home page.
+TripTastic Travel Agency Website Home page.
 
 
 
