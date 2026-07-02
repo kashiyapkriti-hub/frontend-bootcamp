@@ -24,7 +24,5 @@ TripTastic Travel Agency Wbsite Home page.
 ✅ Completed
 
 
-## Tomorrow Goal
 
-CSS Fundamentals.
 
