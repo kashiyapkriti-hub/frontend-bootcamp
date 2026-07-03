@@ -25,9 +25,9 @@ Hi, I'm **Kriti Kumari**, an aspiring Frontend Developer. This repository docume
 |-----|-------|:------:|
 | Day 01 | HTML Basics | ✅ Completed |
 | Day 02 | HTML Forms & Tables | ⏳ Coming Soon |
-| Day 03 | CSS Basics | ⏳ Coming Soon |
-| Day 04 | Flexbox | ⏳ Coming Soon |
-| Day 05 | CSS Grid | ⏳ Coming Soon |
+| Day 03 | Mini projects | ⏳ Coming Soon |
+| Day 04 | Mini projects | ⏳ Coming Soon |
+| Day 05 | Mini projects | ⏳ Coming Soon |
 
 ---
 
