@@ -10,7 +10,7 @@
 
 ## Mini Project
 
-Restaurant Web Page using HTML
+Restaurant Web Page using HTML.
 
 ## Status
 
