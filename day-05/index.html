@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>Have a question?
+      Fill out the form below.
+    </p>
+  </header>
+  <main>
+    <form action="submit_form.php" method="POST">
+      <div style="margin-bottom: 10px;">
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" autocomplete="email">
+      </div>
+      
+      <div style="margin-bottom: 10px;">
+        <label for="phone"> Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+      </div>
+      
+      <div style="margin-bottom: 10px;">
+        <label  for="subject">  Subject</label>
+        <input type="text" id="subject" name="subject">
+      </div>
+
+
+      <div style="margin-bottom: 10px;">
+        <label for="gender">  Gender:</label><br>
+          <label>
+            <input type="radio" name="gender" value="male" required>
+            Male
+          </label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female"> Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+        <label for="other"> Other</label><br>
+      </div>  
+
+      <div style="margin-bottom: 10px;">
+        <label for="service"> Services:</label><br>
+        <input type="checkbox" id="web-design"name="service[]" value="web-design">
+        <label for="web-design"> Web Design</label><br>
+        <input type="checkbox" id="web-development" name="service[]" value="web-development">
+        <label for="web-development"> Web Development</label><br>
+        <input type="checkbox" id="graphic-design" name="service[]" value="graphic-design">
+        <label for="graphic-design"> Graphic Design</label><br>
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label for="country"> Country:</label><br>
+        <select id="country" name="country">
+          <option value=""> Select your country</option>
+          <option value="usa"> USA</option>
+          <option value="canada"> Canada</option>
+          <option value="uk"> UK</option>
+          <option value="australia"> Australia</option>
+        </select>
+      </div>  
+
+     <div style="margin-bottom: 10px;">
+        <label for="message"> Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+      </div>
+
+
+      
+      <button type="submit"> Submit</button>
+      <button type="reset"> Reset</button> 
+      
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2026 My Contact Form</p>
+  </footer>
+</body>
+</html>
