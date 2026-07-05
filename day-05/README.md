@@ -30,9 +30,7 @@ Created a **Contact Us** page using only HTML.
 * Services Selection
 * Country Dropdown
 * Message Box
-* Date Picker
 * File Upload
-* Favorite Color Picker
 * Submit Button
 * Reset Button
 
