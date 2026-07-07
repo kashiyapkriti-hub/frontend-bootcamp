@@ -14,8 +14,6 @@
 * Placeholder Attribute
 * Submit & Reset Buttons
 
----
-
 ##  Mini Project
 
 Created a **Contact Us** page using only HTML.
