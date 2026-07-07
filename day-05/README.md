@@ -16,7 +16,7 @@
 
 ##  Mini Project
 
-Created a **Contact Us** page using only HTML.
+Created a "Contact Us" page using only HTML.
 
 ### Features
 
