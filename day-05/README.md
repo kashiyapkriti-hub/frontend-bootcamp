@@ -3,7 +3,7 @@
 ##  Topics Learned
 
 * HTML Forms
-* Form Element (`<form>`)
+* Form Element
 * Labels
 * Input Types
 * Textarea
