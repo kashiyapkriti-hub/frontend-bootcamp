@@ -1,6 +1,6 @@
 # Day 5 - HTML Forms (Contact Form)
 
-## 📚 Topics Learned
+##  Topics Learned
 
 * HTML Forms
 * Form Element (`<form>`)
@@ -16,7 +16,7 @@
 
 ---
 
-## 💻 Mini Project
+##  Mini Project
 
 Created a **Contact Us** page using only HTML.
 
@@ -36,7 +36,7 @@ Created a **Contact Us** page using only HTML.
 
 ---
 
-## 🎯 Skills Practiced
+##  Skills Practiced
 
 * Building forms
 * Using semantic HTML
