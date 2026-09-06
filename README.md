@@ -1,12 +1,11 @@
-# 🚀 Frontend Bootcamp
-
+#  Frontend Bootcamp
 Welcome to my Frontend Development Bootcamp!
 
 Hi, I'm **Kriti Kumari**, an aspiring Frontend Developer. This repository documents my journey of learning modern frontend development from scratch through daily coding practice, projects, and challenges.
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 - HTML5
 - CSS3
@@ -19,7 +18,7 @@ Hi, I'm **Kriti Kumari**, an aspiring Frontend Developer. This repository docume
 
 ---
 
-## 📅 Bootcamp Progress
+## Bootcamp Progress
 
 | Day | Topic | Status |
 |-----|-------|:------:|
@@ -31,7 +30,7 @@ Hi, I'm **Kriti Kumari**, an aspiring Frontend Developer. This repository docume
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 frontend-bootcamp/
@@ -46,22 +45,22 @@ frontend-bootcamp/
 
 ---
 
-## 💻 Projects
+## Projects
 
 Projects built during this bootcamp will be added here as I continue learning.
 
 ---
 
-## 🎯 My Goal
+## My Goal
 
 To become a professional Frontend Developer, build real-world projects, contribute to open source, and start a successful freelancing career.
 
 ---
 
-## 📬 Connect with Me
+## Connect with Me
 
 - GitHub: https://github.com/kashiyapkriti-hub
 
 ---
 
-⭐ If you like my learning journey, feel free to star this repository!
+ If you like my learning journey, feel free to star this repository!
