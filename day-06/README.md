@@ -3,12 +3,12 @@
 ##  Topics Learned
 
 * Semantic HTML
-* `<header>`
-* `<nav>`
-* `<main>`
-* `<article>`
-* `<aside>`
-* `<footer>`
+* <header>
+* <nav>
+* <main>
+* <article>
+* <aside>
+* <footer>
 * Organizing a webpage using semantic tags
 * Creating a basic blog page structure
 
