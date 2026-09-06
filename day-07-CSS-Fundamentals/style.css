@@ -1,0 +1,104 @@
+/* Basic Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #555;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+}
+
+/* Blog Articles */
+article {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Blog Headings */
+article h2 {
+  color: #333;
+}
+
+/* Blog Text */
+article p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Read More Links */
+article a {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+article a:hover {
+  background-color: #555;
+}
+
+/* Flexbox Layout */
+main {
+  display: flex;
+  gap: 30px;
+}
+
+section {
+  flex: 3;
+}
+
+aside {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  height: fit-content;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
