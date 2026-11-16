@@ -1,0 +1,546 @@
+
+/* =================================
+   1. BASIC RESET
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =================================
+   2. HEADER
+================================= */
+
+.site-header {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.site-header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.site-header p {
+    font-size: 15px;
+    color: #dddddd;
+}
+
+
+/* =================================
+   3. NAVIGATION BAR
+================================= */
+
+.navbar {
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease,
+                color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #666;
+    color: #ffdf6c;
+}
+
+.navbar a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+
+/* =================================
+   4. MAIN LAYOUT
+================================= */
+
+main {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    max-width: 1400px;
+    margin: auto;
+    padding: 35px 25px;
+}
+
+.blog-section {
+    flex: 3 1 0;
+    min-width: 0;
+}
+
+
+/* =================================
+   5. SECTION HEADING
+================================= */
+
+.section-heading {
+    margin-bottom: 22px;
+}
+
+.section-heading h2 {
+    font-size: 26px;
+    color: #252525;
+    margin-bottom: 5px;
+}
+
+.section-heading p {
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* =================================
+   6. DAY 8 - FLEXBOX CONTAINER
+================================= */
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* =================================
+   7. BLOG CARDS
+================================= */
+
+.blog-card {
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+
+    flex: 1 1 250px;
+    min-width: 0;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
+}
+
+
+/* =================================
+   8. BLOG IMAGES
+================================= */
+
+.blog-card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+/* =================================
+   9. CARD CONTENT
+================================= */
+
+.card-content {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* Category Label */
+
+.category {
+    background-color: #e8efff;
+    color: #3159a5;
+    font-size: 12px;
+    font-weight: bold;
+
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Blog Title */
+
+.blog-card h3 {
+    font-size: 19px;
+    color: #292929;
+    margin-bottom: 10px;
+}
+
+
+/* Post Date */
+
+.post-date {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+
+/* Blog Description */
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 18px;
+}
+
+
+/* =================================
+   10. READ MORE BUTTON
+================================= */
+
+.read-more {
+    display: inline-block;
+
+    background-color: #333;
+    color: white;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 9px 16px;
+    border-radius: 5px;
+
+    margin-top: auto;
+
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #555;
+    transform: translateX(4px);
+}
+
+.read-more:focus-visible {
+    outline: 2px solid #333;
+    outline-offset: 3px;
+}
+
+
+
+/* =================================
+   SIDEBAR - PERSONAL PROFILE
+================================= */
+
+.sidebar {
+    flex: 1 1 240px;
+    min-width: 0;
+
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+
+    padding: 22px;
+    height: fit-content;
+}
+
+
+/* Profile Section */
+
+.profile-section {
+    text-align: center;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #eee;
+}
+
+
+/* Avatar */
+
+.profile-avatar {
+    width: 75px;
+    height: 75px;
+
+    background-color: #303030;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    margin: 0 auto 15px;
+}
+
+
+.profile-section h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    color: #777;
+    font-size: 13px;
+}
+
+
+/* Sidebar Sections */
+
+.sidebar-section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar-section:last-child {
+    border-bottom: none;
+}
+
+.sidebar-section h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.sidebar-section p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+/* Learning List */
+
+.learning-list,
+.sidebar-links {
+    list-style: none;
+}
+
+.learning-list li,
+.sidebar-links li {
+    font-size: 13px;
+    padding: 7px 0;
+    color: #666;
+}
+
+
+/* Progress */
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 9px;
+
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    width: 40%;
+    height: 100%;
+
+    background-color: #555;
+    border-radius: 20px;
+}
+
+.progress-note {
+    margin-top: 10px;
+    font-size: 12px !important;
+}
+
+
+/* Sidebar Links */
+
+.sidebar-links a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-links a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Mobile Sidebar */
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        width: 100%;
+        flex: none;
+    }
+
+}
+
+
+
+/* =================================
+   12. FOOTER
+================================= */
+
+.site-footer {
+    background-color: #303030;
+    color: white;
+
+    text-align: center;
+    padding: 25px 15px;
+
+    margin-top: 15px;
+}
+
+.site-footer p {
+    font-size: 14px;
+}
+
+.footer-note {
+    color: #bbbbbb;
+    margin-top: 5px;
+    font-size: 12px !important;
+}
+
+
+/* =================================
+   13. TABLET RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 900px) {
+
+    main {
+        gap: 20px;
+        padding: 25px 18px;
+    }
+
+    .blog-container {
+        gap: 15px;
+    }
+
+    .blog-card {
+        flex-basis: 220px;
+    }
+
+}
+
+
+/* =================================
+   14. MOBILE RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 768px) {
+
+    /* Main Layout */
+
+    main {
+        flex-direction: column;
+        padding: 25px 18px;
+    }
+
+    .blog-section,
+    .sidebar {
+        width: 100%;
+    }
+
+
+    /* Blog Cards */
+
+    .blog-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .blog-card {
+        width: 100%;
+        flex: none;
+    }
+
+
+    /* Navigation */
+
+    .navbar {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+
+    /* Header */
+
+    .site-header {
+        padding: 30px 15px;
+    }
+
+    .site-header h1 {
+        font-size: 27px;
+    }
+
+}
+
+
+/* =================================
+   15. SMALL MOBILE SCREENS
+================================= */
+
+@media (max-width: 400px) {
+
+    .navbar {
+        gap: 2px;
+    }
+
+    .navbar a {
+        padding: 7px 9px;
+        font-size: 13px;
+    }
+
+    .section-heading h2 {
+        font-size: 23px;
+    }
+
+    .card-content {
+        padding: 16px;
+    }
+
+}
